@@ -1,7 +1,7 @@
 # Amazon-Product-Analysis
 
 ## Introduction
-Amazon is a multinational e-commerce company and has experienced a 41% decline in product purchases during its Prime Day event in 2025 compared to the previous year. As a result, both the Marketing and Sales departments at Amazon are looking to improve their customer experience. They seek the help of the Lead Data Analyst to provide them with a comprehensive product report which will examine the products carried by Amazon. The Marketing department will use this information to deliver product-specific digital promotion while the Sales department will use this information to suggest a range of products most suitable for every customer. 
+Amazon is a multinational e-commerce company and has experienced a 41% decline in product purchases during its Prime Day event in 2025 compared to the previous year. As a result, both the Marketing and Sales departments at Amazon are looking to improve their customer experience. They seek the help of the Lead Data Analyst to provide them with a comprehensive product report which will examine the products carried by Amazon. The Marketing department will use this information to deliver product-specific digital promotion while the Sales department will use this information to suggest a range of products most suitable to each customer. 
 
 ## Research Questions
 A product analysis will be performed for the marketing and sales departments with a focus on answering the following research questions.
