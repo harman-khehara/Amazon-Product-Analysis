@@ -8,24 +8,18 @@ A product analysis will be performed for the marketing and sales departments wit
 
 ### Question 1
 How does the price, rating and discount compare for products belonging to different categories?
-#### Purpose
-Obtain an overview of the products sold by Amazon to make it easier to implement guided marketing and sales strategies.
-#### Impact Hypothesis
-When a sales employee is making efforts to sell a product to a future customer, the employee will have sufficient knowledge to answer any questions about the product, including questions relating to pricing and potential discounts.
+
+**Purpose**: Obtain an overview of the products sold by Amazon to make it easier to implement guided marketing and sales strategies. **Impact Hypothesis**: When a sales employee is making efforts to sell a product to a future customer, the employee will have sufficient knowledge to answer any questions about the product, including questions relating to pricing and potential discounts.
 
 ### Question 2
 How can the product characteristics be used to predict the product category?
-#### Purpose 
-Classify new products to ensure appropriate marketing and sales strategies are applied for market success. 
-#### Impact Hypothesis
-A member of the Marketing team is asked to curate digital content to promote a new product. In this case product category classifier models can be used to identify the already existing digital materials prepared for products belonging to the same category.
+
+**Purpose**: Classify new products to ensure appropriate marketing and sales strategies are applied for market success. **Impact Hypothesis**: A member of the Marketing team is asked to curate digital content to promote a new product. In this case product category classifier models can be used to identify the already existing digital materials prepared for products belonging to the same category.
 
 ### Question 3  
 How can product descriptions be used to identify similar products?
-#### Purpose
-Match new products to existing products for segmentation and recommendation strategies.
-#### Impact Hypothesis 
-A sales employee needs to find products similar to the one described by a customer using the product information retrieval models.
+
+**Purpose**: Match new products to existing products for segmentation and recommendation strategies. **Impact Hypothesis**: A sales employee needs to find products similar to the one described by a customer using the product information retrieval models.
 
 ## Data
 The Amazon Sales Dataset will be the primary source of data for this project. The dataset contains over 1000 authentic Amazon product records scraped using Python. The dataset contains 16 features, and Figure 1 provides an overview of the relevant characteristics of the dataset.
@@ -52,4 +46,4 @@ Extract descriptive statistics such as means and frequencies. Compute correlatio
 Based on the results of the preliminary analysis, construct three different product category classifiers: a linear multinomial logistic regression model, and two non-linear classifiers: a k-nearest neighbours model and a decision tree model. Compare the three models using evaluation metrics such as accuracy, precision and recall.
 
 ### Information Retrieval Models
-Construct multiple product information retrieval models using different text preprocessing techniques (stopword removal, lemmatization, etc.). Use TF and TD-IDF statistical weight measures to evaluate importance of words in both unigram and bigram models. Calculate accuracy, precision and recall to evaluate search relevance.
+Construct multiple unigram and bigram vector space models to process product descriptions. Apply different text preprocessing techniques (stopword removal, lemmatization, etc.) and use both the TF and TD-IDF statistical weight measures to evaluate importance of words. Calculate accuracy, precision and recall to evaluate search relevance.
