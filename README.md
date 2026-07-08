@@ -22,11 +22,11 @@ How can product descriptions be used to identify similar products?
 **Purpose**: Match new products to existing products for segmentation and recommendation strategies. **Impact Hypothesis**: A sales employee needs to find products similar to the one described by a customer using the product information retrieval models.
 
 ## Data
-The Amazon Sales Dataset will be the primary source of data for this project. The dataset contains over 1000 authentic Amazon product records scraped using Python. The dataset contains 16 features, and Figure 1 provides an overview of the relevant characteristics of the dataset.
+The Amazon Sales Dataset will be the primary source of data for this project. The dataset contains over 1000 authentic Amazon product records scraped using Python. The dataset contains 16 variables, and Figure 1 provides an overview of the relevant characteristics of the dataset.
 
-### Figure 1: Overview of Features
+### Figure 1: Overview of Variables
 
-| Feature | Description | Name |
+| Name | Description | Type |
 | ------------- | ------------- |-------------|
 | product_name  | String containing product name  | Text |
 | category  | Pipe separated string containing product categories  | Text |
