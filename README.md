@@ -66,4 +66,10 @@ Amazon-Product-Analysis/
 │   ├── Project_Design.pdf
 │   └── Project_Initial_Results.pdf
 └── README.md
-```      
+```
+
+## Installation
+The code for this analysis can be run by downloading the desired `.ipynb` files and uploading them into [Google Collab](https://colab.research.google.com/).
+
+### Exploratory Data Analysis
+Download `Exploratory_Data_Analysis.ipynb` and `amazon.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/amazon.csv")`
