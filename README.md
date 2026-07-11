@@ -47,3 +47,32 @@ Based on the results of the preliminary analysis, construct three different prod
 
 ### Information Retrieval Models
 Construct multiple unigram and bigram vector space models to process product descriptions. Apply different text preprocessing techniques (stopword removal, lemmatization, etc.) and use both the TF and TD-IDF statistical weight measures to evaluate importance of words. Calculate accuracy, precision and recall to evaluate search relevance.
+
+## File Structure
+```
+Amazon-Product-Analysis/
+├── Data/                
+|   ├── amazon.csv
+|   └── sales_compressed.csv
+├── Notebooks/           
+│   ├── HTML-Reports/
+│   |   ├── Exploratory_Data_Analysis.html 
+│   |   └── Model_Development_Evaluation.html 
+│   ├── Python-Scripts/  
+│   |   ├── Exploratory_Data_Analysis.ipynb
+│   |   └── Model_Development_Evaluation.ipynb 
+├── Reports/ 
+│   ├── Project_Architecture.pdf
+│   ├── Project_Design.pdf
+│   └── Project_Initial_Results.pdf
+└── README.md
+```
+
+## Installation
+The code for this analysis can be run by downloading the desired `.ipynb` file(s) and uploading them into [Google Collab](https://colab.research.google.com/).
+
+### Exploratory Data Analysis
+Download `Exploratory_Data_Analysis.ipynb` and `amazon.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/amazon.csv")`
+
+### Model Development and Evaluation
+Download `Model_Development_Evaluation.ipynb` and `sales_compressed.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/sales_compressed.csv")`
