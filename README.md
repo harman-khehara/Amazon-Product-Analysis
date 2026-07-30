@@ -75,4 +75,4 @@ The code for this analysis can be run by downloading the desired `.ipynb` file(s
 Download `Exploratory_Data_Analysis.ipynb` and `amazon.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/amazon.csv")`
 
 ### Model Development and Evaluation
-Download `Model_Development_Evaluation.ipynb` and `sales_compressed.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/sales_compressed.csv")`
+Download `Model_Development_Evaluation.ipynb` and `sales_compressed.csv`. Specify the directory of the dataset in the following line of code: `sales_compressed = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/sales_compressed.csv")`
