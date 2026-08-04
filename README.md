@@ -33,7 +33,7 @@ The Amazon Sales Dataset will be the primary source of data for this project. Th
 | discounted_price  | Discounted price of product in Indian Rupees (INR)  | Numerical with units |
 | actual_price  | Price of product in INR  | Numerical with units |
 | discount_percentage  | Percentage discount on product  | Numerical with units |
-| rating  | Rating of product from 1 to 5  | Ordinal, categorical |
+| rating  | Average rating of product from ranging from 1-5  | Numerical |
 | rating_count  |  Number of individuals who voted for a product rating | Numerical |
 | about_product  | Description of product  | Text |
 
