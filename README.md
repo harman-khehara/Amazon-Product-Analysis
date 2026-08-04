@@ -43,10 +43,11 @@ The Amazon Sales Dataset will be the primary source of data for this project. Th
 Extract descriptive statistics such as means and frequencies. Compute correlations to observe potential relationships between variables. Visualize variable distributions to observe general trends and outliers using boxplots and histograms.
 
 ### Classification Models
-Based on the results of the preliminary analysis, construct three different product category classifiers: a linear multinomial logistic regression model, and two non-linear classifiers: a k-nearest neighbours model and a decision tree model. Compare the three models using evaluation metrics such as accuracy, precision and recall.
+Using the results of the preliminary analysis, construct three different product category classifiers. A linear multinomial logistic regression model and two nonlinear classifiers: a k-nearest neighbours model and a decision tree model. Compare the three models using evaluation metrics such as accuracy, precision and recall.
 
 ### Information Retrieval Models
-Construct multiple unigram and bigram vector space models to process product descriptions. Apply different text preprocessing techniques (stopword removal, lemmatization, etc.) and use both the TF and TD-IDF statistical weight measures to evaluate importance of words. Calculate accuracy, precision and recall to evaluate search relevance.
+Construct multiple unigram and bigram vector space models to process product descriptions. Apply different text preprocessing techniques (stopword removal, lemmatization, etc.) and use both the TD-IDF statistical weight measure to evaluate importance of words. Calculate retrieval to evaluate search relevance.
+
 
 ## File Structure
 ```
