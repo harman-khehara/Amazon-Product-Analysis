@@ -43,11 +43,17 @@ The Amazon Sales Dataset will be the primary source of data for this project. Th
 Extract descriptive statistics such as means and frequencies. Compute correlations to observe potential relationships between variables. Visualize variable distributions to observe general trends and outliers using boxplots and histograms.
 
 ### Classification Models
-Using the results of the preliminary analysis, construct three different product category classifiers. A linear multinomial logistic regression model and two nonlinear classifiers: a k-nearest neighbours model and a decision tree model. Compare the three models using evaluation metrics such as accuracy, precision and recall.
+Using the results of the preliminary analysis, construct three different product category classifiers, a linear multinomial logistic regression model and two nonlinear classifiers: a k-nearest neighbours model and a decision tree model. Compare the three models using evaluation metrics such as accuracy, precision and recall.
 
 ### Information Retrieval Models
-Construct multiple unigram and bigram vector space models to process product descriptions. Apply different text preprocessing techniques (stopword removal, lemmatization, etc.) and use both the TD-IDF statistical weight measure to evaluate importance of words. Calculate retrieval to evaluate search relevance.
+Construct multiple unigram and bigram vector space models to process product descriptions. Apply different text preprocessing techniques (stopword removal, lemmatization, etc.) and use the TD-IDF statistical weight measure to evaluate importance of words. Calculate retrieval accuracy by category to evaluate search relevance.
 
+## Summary of Findings
+- Smart televisions are the most expensive product with an average price of  ₹40,974 followed by smart phones with an average price of  ₹20,593. USB cables and remote controls are the cheapest sold products with average prices of  ₹943 and  ₹1,170 respectively.
+- Smart watches have the highest average offered discount of 70% while smart televisions and smartphones have average offered discounts of only 38% and 23% respectively.
+- USB cables, smartphones and smart televisions all have an average rating of about 4.1. On the other hand, both remote controls and in-ear headphones have an average rating of about 3.8.
+- The decision tree model outperformed both the logistic regression and KNN models with an average reported accuracy, precision and recall of 90%, 91% and 90% respectively.
+- The vector space model used to extract similar products has reported an average accuracy 75% or higher across all product categories.
 
 ## File Structure
 ```
@@ -58,14 +64,12 @@ Amazon-Product-Analysis/
 ├── Notebooks/           
 │   ├── HTML-Reports/
 │   |   ├── Exploratory_Data_Analysis.html 
-│   |   └── Model_Development_Evaluation.html 
+│   |   ├── Baseline_Model_Development_Evaluation.html
+│   |   └── Final_Model_Development_Evaluation.html
 │   ├── Python-Scripts/  
 │   |   ├── Exploratory_Data_Analysis.ipynb
-│   |   └── Model_Development_Evaluation.ipynb 
-├── Reports/ 
-│   ├── Project_Architecture.pdf
-│   ├── Project_Design.pdf
-│   └── Project_Initial_Results.pdf
+│   |   ├── Baseline_Model_Development_Evaluation.ipynb
+│   |   └── Final_Model_Development_Evaluation.ipynb
 └── README.md
 ```
 
@@ -73,7 +77,12 @@ Amazon-Product-Analysis/
 The code for this analysis can be run by downloading the desired `.ipynb` file(s) and uploading them into [Google Collab](https://colab.research.google.com/).
 
 ### Exploratory Data Analysis
-Download `Exploratory_Data_Analysis.ipynb` and `amazon.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/amazon.csv")`
+Download `Exploratory_Data_Analysis.ipynb` and `amazon.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 4/amazon.csv")`
 
-### Model Development and Evaluation
-Download `Model_Development_Evaluation.ipynb` and `sales_compressed.csv`. Specify the directory of the dataset in the following line of code: `sales_compressed = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 3/sales_compressed.csv")`
+### Baseline Model Development and Evaluation
+Download `Baseline_Model_Development_Evaluation.ipynb` and `sales_compressed.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 4/sales_compressed.csv")`
+
+### Final Model Development and Evaluation
+Download `Final_Model_Development_Evaluation.ipynb` and `sales_compressed.csv`. Specify the directory of the dataset in the following line of code: `sales = pd.read_csv("/content/drive/MyDrive/CIND 820/Milestone 4/sales_compressed.csv")`
+
+*If you wish to only view the output of the code, simply download the `.html` file(s) corresponding to your chosen `.ipynb` file(s). These files can be opened using any web browser of your choice.*
